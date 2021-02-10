@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: orange;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25vh;
+  background-color: white;
+  height: 100%;
+  padding: 60px;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin: 0.5rem;
+}
+form {
+  padding-top: 0.8rem;
+}
+input {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.6rem;
+}
+button {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background-color: rgb(25, 138, 182);
+  outline: none;
+  border: none;
+  color: white;
+}
+
+h4:last-of-type {
+  margin-top: 1rem;
+}
